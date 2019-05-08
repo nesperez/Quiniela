@@ -1,0 +1,175 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	background: #204862;
+	font-family: sans-serif;
+	}
+h1{
+	color: #fff;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 20px;
+	color: rgba(0,0,0,0.5);
+}
+.form-busqueda{
+	width: 95%;
+	max-width: 500px;
+	margin:auto;
+	background: white;
+	border-radius: 7px;
+}
+
+.form-titulo{
+	background: deepskyblue;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	border-top-left-radius:7px;
+	border-top-right-radius: 7px;
+	border-bottom: 5px solid crimson;
+
+}
+.conteiner{
+	padding: 10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+form{
+	margin:auto;
+	width: 50%;
+	max-width: 500px;
+	background: #fff;
+	padding: 30px;
+	border: 1px solid rgba(0,0,0,2);
+}
+section{
+	margin:auto;
+	width: 75%;
+	height: 50%;
+	max-width: 750px;
+	max-height: : 750px;
+	background: #fff;
+	padding: 30px;
+	border: 1px solid rgba(0,0,0,2);
+	display: none;
+}
+
+input{
+	margin-bottom: 17px;
+	padding: 15px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid darkgrey;
+
+}
+.res-span{
+	font-size: 0.7vw;
+}
+.btn-contenedor{
+	margin:auto;
+	background-color: transparent;
+	border:none;
+	display: none;
+
+}
+.input-48{
+	width: 48%;
+}
+
+.input-100{
+	width: 100%;
+}
+
+.btn-enviar:active{
+	transform: scale(1.05);
+}
+.btn-enviar{
+	background: crimson;
+	color: #fff;
+	margin:auto;
+	padding: 10px 40px;
+}
+
+.btn-boton02{
+	background: crimson;
+	color: #fff;
+	margin:auto;
+	padding: 10px 40px;
+	float: right;
+	}
+
+.form__link{
+	width: 100%;
+	margin: 0;
+	color: #fff;
+	float: right;
+	font-size: 14px;
+}
+
+input[type="submit"]{
+	cursor: pointer;
+	}
+input[type="submit"]:hover{
+	opacity: 1;
+}
+
+input[type="submit"]:active{
+	transform: scale(0.95);
+}
+.error{
+    background-color: #E74F4F;
+    position: absolute;
+    top: 0;
+    padding: 10px 0 ;
+    border-radius:  0 0 5px 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.estatus{
+    background-color: #E74F4F;
+    position: absolute;
+    top: 0;
+    padding: 10px 0 ;
+    border-radius:  0 0 5px 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.logout{
+    background-color: #E74F4F;
+    position: absolute;
+    top: 0;
+    padding: 10px 0 ;
+    border-radius:  0 0 5px 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+
+@media(max-width:768px){
+	form{
+		width: 75%;
+	}
+}
+
+@media(max-width:480px){
+	form{
+		width: 95%;
+	}
+}
